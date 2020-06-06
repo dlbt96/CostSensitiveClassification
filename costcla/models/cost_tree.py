@@ -5,7 +5,7 @@ This module include the cost sensitive decision tree method.
 # Authors: Alejandro Correa Bahnsen <al.bahnsen@gmail.com>
 # License: BSD 3 clause
 
-import numpy as np
+cimport numpy as np
 import copy
 from ..metrics import cost_loss
 from sklearn.base import BaseEstimator
