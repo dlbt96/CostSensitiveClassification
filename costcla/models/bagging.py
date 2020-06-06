@@ -8,7 +8,7 @@
 
 import itertools
 import numbers
-import numpy as np
+cimport numpy as np
 from abc import ABCMeta, abstractmethod
 from inspect import getargspec
 
